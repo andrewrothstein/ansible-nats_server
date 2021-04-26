@@ -2,3 +2,9 @@
 - hosts: all
   roles:
   - role: '{{ playbook_dir }}'
+  tasks:
+  - command: /usr/local/nats-server/nats-server --version
+    register: nats_server_output
+  - name: nats-server --version
+    debug:
+      msg: '{{ nats_server_output.stdout }}'
