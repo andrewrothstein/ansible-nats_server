@@ -23,7 +23,6 @@ galaxy_info:
     - name: Fedora
       versions:
         - 34
-        - 35
     - name: Ubuntu
       versions:
         - bionic
@@ -33,9 +32,9 @@ galaxy_info:
   role_name: nats_server
 dependencies:
   - role: andrewrothstein.nats
-    version: v2.0.2
+    version: v2.0.3
     nats_app: nats-server
-    nats_ver: v2.2.6
+    nats_ver: v2.3.2
     nats_checksums:
       v2.0.0:
         # https://github.com/nats-io/nats-server/releases/download/v2.0.0/nats-server-v2.0.0-darwin-amd64.zip
@@ -258,3 +257,20 @@ dependencies:
         windows-386: sha256:1583df7e2649ce4169b48ce2813d0305e0423a5e6ce4aa6be6a276c1b934b6cc
         # https://github.com/nats-io/nats-server/releases/download/v2.2.6/nats-server-v2.2.6-windows-amd64.zip
         windows-amd64: sha256:c1712f41e4e811027701a036b6ff67b1f09fb298b0674098b26f875d37e709b2
+      v2.3.2:
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-darwin-amd64.zip
+        darwin-amd64: sha256:7a8f7139bded1e6bfc746b6020d40c344911ec7f42e4e5e86a7fccd4b1c2f3e8
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-linux-386.zip
+        linux-386: sha256:aaafc76dcb28b26d3a8e5b1f23cbe00b5e31565f5371b51ba8793feb348c8ce2
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-linux-amd64.zip
+        linux-amd64: sha256:e8a0d264ec404a89fd91a520312cc72fcebda6b4a1acb14ae37b51682c28d29c
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-linux-arm6.zip
+        linux-arm6: sha256:46cfcadd45860b98481a428654270188bddd7a895fe3be69e3aaac7c880c8d23
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-linux-arm64.zip
+        linux-arm64: sha256:423abad5e8af572986c5f730f204fb35d205e75e619b849ecc38e63f4869a20c
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-linux-arm7.zip
+        linux-arm7: sha256:3be52d9207719a990623c2d27bf2eadb432e13a472ca0e9048c1225528f0c3db
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-windows-386.zip
+        windows-386: sha256:7f30bdc3bce802517e73910376fdd90dd76df5e78d100ee1883cc35c1cb923a8
+        # https://github.com/nats-io/nats-server/releases/download/v2.3.2/nats-server-v2.3.2-windows-amd64.zip
+        windows-amd64: sha256:9278a3709c874f1dc5125fece7e7803e0cd4361cd97dc847826ef95838ea1e3e
