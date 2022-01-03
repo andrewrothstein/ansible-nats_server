@@ -22,8 +22,8 @@ galaxy_info:
         - 8
     - name: Fedora
       versions:
-        - 34
         - 35
+        - 36
     - name: Ubuntu
       versions:
         - bionic
@@ -32,10 +32,9 @@ galaxy_info:
     - development
   role_name: nats_server
 dependencies:
-  - role: andrewrothstein.nats
-    version: v2.0.5
+  - name: andrewrothstein.nats
     nats_app: nats-server
-    nats_ver: v2.6.5
+    nats_ver: v2.6.6
     nats_checksums:
       v2.0.0:
         # https://github.com/nats-io/nats-server/releases/download/v2.0.0/nats-server-v2.0.0-darwin-amd64.zip
