@@ -14,7 +14,7 @@ dl()
     local url=$mirror/$file
     if [ ! -e $lfile ];
     then
-        wget -q -O $lfile $url
+        curl -sSLf -o $lfile $url
     fi
 
     printf "        # %s\n" $url
@@ -35,4 +35,4 @@ dlapp() {
     dl $app $ver windows amd64
 }
 
-dlapp nats-server ${1:-v2.7.0}
+dlapp nats-server ${1:-v2.7.3}
