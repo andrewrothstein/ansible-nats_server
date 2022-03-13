@@ -26,6 +26,7 @@ dlapp() {
     local ver=$2
     printf "      %s:\n" $ver
     dl $app $ver darwin amd64
+    dl $app $ver darwin arm64
     dl $app $ver linux 386
     dl $app $ver linux amd64
     dl $app $ver linux arm6
@@ -35,4 +36,4 @@ dlapp() {
     dl $app $ver windows amd64
 }
 
-dlapp nats-server ${1:-v2.7.3}
+dlapp nats-server ${1:-v2.7.4}
