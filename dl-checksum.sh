@@ -17,14 +17,14 @@ dl()
         curl -sSLf -o $lfile $url
     fi
 
-    printf "        # %s\n" $url
-    printf "        %s: sha256:%s\n" $platform $(sha256sum $lfile | awk '{print $1}')
+    printf "    # %s\n" $url
+    printf "    %s: sha256:%s\n" $platform $(sha256sum $lfile | awk '{print $1}')
 }
 
 dlapp() {
     local app=$1
     local ver=$2
-    printf "      %s:\n" $ver
+    printf "  %s:\n" $ver
     dl $app $ver darwin amd64
     dl $app $ver darwin arm64
     dl $app $ver linux 386
@@ -36,4 +36,5 @@ dlapp() {
     dl $app $ver windows amd64
 }
 
-dlapp nats-server ${1:-v2.8.4}
+dlapp nats-server v2.9.0
+dlapp nats-server ${1:-v2.9.1}
