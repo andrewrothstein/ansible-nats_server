@@ -1,7 +1,7 @@
 ---
 # defaults file for nats_server
 nats_app: nats-server
-nats_ver: v2.9.7
+nats_ver: v2.9.9
 nats_checksums:
   v2.0.0:
     # https://github.com/nats-io/nats-server/releases/download/v2.0.0/nats-server-v2.0.0-darwin-amd64.zip
@@ -658,3 +658,41 @@ nats_checksums:
     windows-386: sha256:3aa29c558e445dc16d647b5e05ae0b73d7f47075298e3dceca694cae8661760b
     # https://github.com/nats-io/nats-server/releases/download/v2.9.7/nats-server-v2.9.7-windows-amd64.zip
     windows-amd64: sha256:f1baa1646b7a499d035ebfd529644c1379988ab69703a090f9899c97067cea02
+  v2.9.8:
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-darwin-amd64.zip
+    darwin-amd64: sha256:06b039646298977319287755f774fff5089b6ad0a12563e3b491d2e1d81dbebb
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-darwin-arm64.zip
+    darwin-arm64: sha256:b141cf5edb905aa6789a1d5b0cd4e2fa8678287871a4af4b46eb2130bd17a06d
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-linux-386.zip
+    linux-386: sha256:97461461dc2d32c03a7558a5fff1136afce125a7dbbc38d9dbab723c5bf9c266
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-linux-amd64.zip
+    linux-amd64: sha256:75568e112b77b28935807fdfb3a95ac2138a1138d489c7ac10b316e6c22a7a8a
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-linux-arm6.zip
+    linux-arm6: sha256:00d4295e8ba117aa2e3dd210dd66dd8aebc93484ca65c7c320a33c93e2872d09
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-linux-arm64.zip
+    linux-arm64: sha256:c127de8ae1585b5a9964a97cfca9e7647eff3d3fab09c5a0ad4bcd19c5036d13
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-linux-arm7.zip
+    linux-arm7: sha256:66039d48bcbd58830203b68c28302088f088a610ba2d6313a09bb34a4fe1c4f9
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-windows-386.zip
+    windows-386: sha256:60110c82e20be2b8549914f9a4d83b56850f0c7ca6e986e3feafa550ecaf0e7a
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.8/nats-server-v2.9.8-windows-amd64.zip
+    windows-amd64: sha256:b54ada0a61221ad22ce54620655cbb46ea86b1480d25bb63af7161ac3d2ed8e6
+  v2.9.9:
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-darwin-amd64.zip
+    darwin-amd64: sha256:c3ca48e6ba1511b2ec34e78c44bda922e043e3cd41729df3b8741d94d5a343d3
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-darwin-arm64.zip
+    darwin-arm64: sha256:98508cec080ce55931167a3e78c9b6291bcb42bdc34c19781503fac058832ed5
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-linux-386.zip
+    linux-386: sha256:c58c4e0f40821c281eb992d772b2b09f0263f68314e0df877a2f4fde3a8c17f1
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-linux-amd64.zip
+    linux-amd64: sha256:548a49c4ee785b0a716acdac7e062b4e3c0dbbc775c856975057d61d38506f11
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-linux-arm6.zip
+    linux-arm6: sha256:454e4afea055807c44c7640b9b7b7ee89f50a1b77c5bf6a1e334eca2d7c6f4db
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-linux-arm64.zip
+    linux-arm64: sha256:d28a65b0c19d100bbbca5dfd2dce6710175f9d45110e4edfc79f3d97c43d8b98
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-linux-arm7.zip
+    linux-arm7: sha256:776f8665e5ad40de249285bb403bc0b5977bf66fd46283093b3ced4744841070
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-windows-386.zip
+    windows-386: sha256:983970af614bc0299b0ba6c6340c0687d2f07f89482dba7a3cab9012563d17c5
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-windows-amd64.zip
+    windows-amd64: sha256:a3456ed1a8f02d9d8ced35a1adbe1f6451af0c303f87ff74c15879dfc8cabd30
