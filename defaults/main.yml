@@ -1,7 +1,7 @@
 ---
 # defaults file for nats_server
 nats_app: nats-server
-nats_ver: v2.9.9
+nats_ver: v2.9.10
 nats_checksums:
   v2.0.0:
     # https://github.com/nats-io/nats-server/releases/download/v2.0.0/nats-server-v2.0.0-darwin-amd64.zip
@@ -696,3 +696,22 @@ nats_checksums:
     windows-386: sha256:983970af614bc0299b0ba6c6340c0687d2f07f89482dba7a3cab9012563d17c5
     # https://github.com/nats-io/nats-server/releases/download/v2.9.9/nats-server-v2.9.9-windows-amd64.zip
     windows-amd64: sha256:a3456ed1a8f02d9d8ced35a1adbe1f6451af0c303f87ff74c15879dfc8cabd30
+  v2.9.10:
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-darwin-amd64.zip
+    darwin-amd64: sha256:62196066b804b6df56d23450f23f7063b978934f8c3cd9e483e598cb36fb8cb0
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-darwin-arm64.zip
+    darwin-arm64: sha256:d943623c68afd785af3a86e40135cb510dec5b3c313fd23ccd55770693743444
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-linux-386.zip
+    linux-386: sha256:506364bbec547de47d72a4b0fe1c118b3fa74dff95ff86156c00dee44f608252
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-linux-amd64.zip
+    linux-amd64: sha256:4a1d68f3b18a2ce0b9d98fc6e58bda7a7fa4f630f8701321e8d931c1a0b5e630
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-linux-arm6.zip
+    linux-arm6: sha256:b2e3cf7c74eb5591a55d0f1fe434366941308ec0018a18815d59a94b96ac1049
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-linux-arm64.zip
+    linux-arm64: sha256:81418276401aa0cf22a2afda1c062ed80a649d42e93857094c9024c36f171b64
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-linux-arm7.zip
+    linux-arm7: sha256:9ccea2d9599970f76b407d8efc7578c9e86da30a1db4cdc43dfb5e034c865cc6
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-windows-386.zip
+    windows-386: sha256:be6d2080c44f0d1150d159588a164725f8d1fe6392ed1798833809a81aa705d8
+    # https://github.com/nats-io/nats-server/releases/download/v2.9.10/nats-server-v2.9.10-windows-amd64.zip
+    windows-amd64: sha256:bd6d8d6c538da79e91d5c080d8c29d893bd46809698157d4a597930d4532e2da
