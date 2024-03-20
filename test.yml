@@ -1,10 +1,13 @@
 ---
-- hosts: all
+- name: Testing andrewrothstein.nats_server
+  hosts: all
   roles:
-  - role: '{{ playbook_dir }}'
+    - role: '{{ playbook_dir }}'
   tasks:
-  - command: /usr/local/nats-server/nats-server --version
-    register: nats_server_output
-  - name: nats-server --version
-    debug:
-      msg: '{{ nats_server_output.stdout }}'
+    - name: Executing 'nats-server --version'
+      ansible.builtin.command: /usr/local/nats-server/nats-server --version
+      changed_when: false
+      register: nats_server_output
+    - name: Output of 'nats-server --version'
+      ansible.builtin.debug:
+        msg: '{{ nats_server_output.stdout }}'
