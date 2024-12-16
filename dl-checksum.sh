@@ -35,4 +35,4 @@ dlapp() {
     dl $app $ver windows 386
     dl $app $ver windows amd64
 }
-dlapp nats-server ${1:-v2.10.20}
+dlapp nats-server ${1:-v2.10.23}
