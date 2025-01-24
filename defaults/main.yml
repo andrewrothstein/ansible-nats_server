@@ -1,7 +1,7 @@
 ---
 # defaults file for nats_server
 nats_app: nats-server
-nats_ver: v2.10.23
+nats_ver: v2.10.25
 nats_checksums:
   v2.0.0:
     # https://github.com/nats-io/nats-server/releases/download/v2.0.0/nats-server-v2.0.0-darwin-amd64.zip
@@ -1190,3 +1190,41 @@ nats_checksums:
     windows-386: sha256:e3c9baeade7306b87811461e749f7be21583be1e3bf30b225970d329fe195eb9
     # https://github.com/nats-io/nats-server/releases/download/v2.10.23/nats-server-v2.10.23-windows-amd64.zip
     windows-amd64: sha256:4ec39c0df08823a062dcdaac23ccf7ee56e76ccc27b69134f3e9b1549bc0f305
+  v2.10.24:
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-darwin-amd64.zip
+    darwin-amd64: sha256:bf2503540b12a2550b36323918d00d0a8578c40781609000ce219d0ea3710ea2
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-darwin-arm64.zip
+    darwin-arm64: sha256:e7cba91a2388ac60b487d225908dd42a4490df5cf6def929bc813dbd83dccf11
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-linux-386.zip
+    linux-386: sha256:4e07deebf9267b4beec79dc59078f5d09bfcdcf293e6dc15a33004f068360226
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-linux-amd64.zip
+    linux-amd64: sha256:14f459c67e758ac45614a7ccf7dfda6638c3d3d7d4c73fdee1582f70de9b2be3
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-linux-arm6.zip
+    linux-arm6: sha256:7314eeb7b8ffa2305bca225d4711afb02a9798cbb7c322adea55c68db9f2e8be
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-linux-arm64.zip
+    linux-arm64: sha256:b214797235a511c048377cc67490f9f9915ac419bab423392030b6ae07ca1b8e
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-linux-arm7.zip
+    linux-arm7: sha256:de963f8a5a5c14f53e93e121a44e2124e46587476f47447e55f97ca5f5657e29
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-windows-386.zip
+    windows-386: sha256:e9e0226bd80e33c5ea2c66564bd9d6521c396c53d2a69e923338edc7de70d9e2
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.24/nats-server-v2.10.24-windows-amd64.zip
+    windows-amd64: sha256:bf94c9a9f1685147fd95f6c62f26d16fb72dc8c8c592e2d8c9115e2491c508c3
+  v2.10.25:
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-darwin-amd64.zip
+    darwin-amd64: sha256:17dc8f61a67edf0b323232574b9bfb08d71e91a670b2a34b0eefb7d3faac1d20
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-darwin-arm64.zip
+    darwin-arm64: sha256:aae689bde341beb57b45653ef6b8fffb3c640a0239df8e0637e18ccbca3db824
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-linux-386.zip
+    linux-386: sha256:a0ca19eb2c11e259cc67027e0cb8bf38632e1d0e414cc29fd4e2d5b66ec50927
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-linux-amd64.zip
+    linux-amd64: sha256:afda773b8742a7767efb8f6f4d8f89b8647c04b49f38c9b78318fab842270e4d
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-linux-arm6.zip
+    linux-arm6: sha256:5fb5110a4a4717e733e648983fd570942e1d26acb6165fa85ac348596acd6b1f
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-linux-arm64.zip
+    linux-arm64: sha256:6824675721e291fed1452ca90546901dafc80f55e4b220d0cb501eeb678273f0
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-linux-arm7.zip
+    linux-arm7: sha256:f94032c3ac80bf412d69dc5252fd1d3a12c00efb0dc8966a2f54ceddf3c189cf
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-windows-386.zip
+    windows-386: sha256:e638ee003322c68d79e19390c37b430610e803d9312e7e02f8670656ae85f70c
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-windows-amd64.zip
+    windows-amd64: sha256:cfc706d1add1d61e7f00023f12ab8e4266f2dddce21ac1cb0934d261d793b185
