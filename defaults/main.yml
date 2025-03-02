@@ -1,7 +1,7 @@
 ---
 # defaults file for nats_server
 nats_app: nats-server
-nats_ver: v2.10.25
+nats_ver: v2.10.26
 nats_checksums:
   v2.0.0:
     # https://github.com/nats-io/nats-server/releases/download/v2.0.0/nats-server-v2.0.0-darwin-amd64.zip
@@ -1228,3 +1228,22 @@ nats_checksums:
     windows-386: sha256:e638ee003322c68d79e19390c37b430610e803d9312e7e02f8670656ae85f70c
     # https://github.com/nats-io/nats-server/releases/download/v2.10.25/nats-server-v2.10.25-windows-amd64.zip
     windows-amd64: sha256:cfc706d1add1d61e7f00023f12ab8e4266f2dddce21ac1cb0934d261d793b185
+  v2.10.26:
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-darwin-amd64.zip
+    darwin-amd64: sha256:cab5d6e9d1c0cf5f9148e974d2014b83c2caf80b3966ab8168920b9004b029f5
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-darwin-arm64.zip
+    darwin-arm64: sha256:67895f5ab942e133de78c04e730ea43dc67711e1f64ac12bb0c0f5c76ca23664
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-linux-386.zip
+    linux-386: sha256:6efa38f8c9d3b806490fa11b91b1171277de698d5e256aaec8c6f04b4dab11b6
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-linux-amd64.zip
+    linux-amd64: sha256:a035c8d3206b95fc377fbe1738f113c48796231274e78a0b9d2518042e7d61e8
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-linux-arm6.zip
+    linux-arm6: sha256:92054ecd2800c6ac12f3ce7f4cbb7e33db28b8f45b3c65148aff9859ef00b2c2
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-linux-arm64.zip
+    linux-arm64: sha256:89ee2b8aa29175eedf2d839554f67ef2b7ddfe2d8c776ee1638917453e4c9138
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-linux-arm7.zip
+    linux-arm7: sha256:2c129cb7d4837fb0096166980aa7bc42af5d7497a12bd4d81e211ae89a01198e
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-windows-386.zip
+    windows-386: sha256:8970f15b0a01a777f8673560eb74c03b67192a35c15b8ee92a6743398a564a59
+    # https://github.com/nats-io/nats-server/releases/download/v2.10.26/nats-server-v2.10.26-windows-amd64.zip
+    windows-amd64: sha256:e1f9c4eee642bd521878dc493de8514b25c1468e3f2420312aa52f96f7bcbabf
